@@ -75,10 +75,32 @@
           <li><a class="nav-link scrollto" href="index.html">Key Features</a></li>
           <li><a class="nav-link scrollto" href="pricingea.html">Pricing</a></li>
           <li><a class="nav-link scrollto" href="contactus.html">Contact us</a></li>
-         
+          
+            
+        
+              <li class="dropdown"><a href="#"><span>Industries</span> <i class="bi bi-chevron-down"></i></a>
+                <ul>
+                  <li><a href="ecommerce-logistics.html">E-commerce</a></li>
+                  <li><a href="grocery-logistics.html">E-grocery</a></li>
+                  <li><a href="retail-logistics.html">Retail</a></li>
+                  <li><a href="industrial-services.html">Industrial Services</a></li>
+                  <li><a href="manufacturing-logistics.html">Manufacturing</a></li>
+                  <li><a href="3pl-and-cep.html">3PL & CEP</a></li>
+                  <li><a href="home-services.html">Home Services</a></li>
+                </ul>
+        
+                <li class="dropdown"><a href="#"><span>Guides</span> <i class="bi bi-chevron-down"></i></a>
+                  <ul>
+                    <li><a href="Guides/electronics-supply-chain-and-third-party-logistics.html">Electronic Products</a></li>
+                    <li><a href="Guides/fleetmanagement.html">Fleet Management</a></li>
+                    <li><a href="Guides/a-definitive-guide-to-route-planning.html">Logistics Route Planner Guide</a></li>
+                    <li><a href="Guides/healthcarelogistics.html">Healthcare Logistics</a></li>
+                    <li><a href="Guides/what-is-a-transportation-management-system-tms-and-why-do-you-need-it.html">Transport Management System</a></li>
+                    <li><a href="Guides/electronics-supply-chain-and-third-party-logistics.html">E-commerce Logistics</a></li>
+                    <li><a href="Guides/direct-to-store-delivery.html">Direct Store Delivery</a></li>
+                  </ul>
 
-
-          <li><a class="getstarted scrollto" href="#about" style="background: linear-gradient(111.24deg, #FFCE20 33.43%, #FAAC16 97.28%);
+          <li><a  data-toggle="modal" data-target="#exampleModal" data-whatever="@fat" class="getstarted scrollto" href="#exampleModal" style="background: linear-gradient(111.24deg, #FFCE20 33.43%, #FAAC16 97.28%);
             box-shadow: 0px 0px 32px rgba(255, 226, 47, 0.66);" >Contact sales</a></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
@@ -86,7 +108,7 @@
       </nav><!-- .navbar -->
 
     </div>
-  </header>
+  </header><!-- End Header -->
 
 <!-- Wrapper -->
 <div id="wrapper" class="">
@@ -122,16 +144,15 @@
 		<div class="col-xl-12">
 
 			<!-- Billing Cycle  -->
-			<div class="billing-cycle-radios margin-bottom-70">
-				<div class="radio billed-monthly-radio">
-					<input id="radio-5" name="radio-payment-type" type="radio" checked>
+			<div class=" margin-bottom-70   d-flex  flex-row gap-5 align-self-center justify-content-center">
+        
+				 <div class="  d-flex flex-row gap-4  radio">
+					<input id="radio-5" name="radio-payment-type" type="radio" >
 					<label for="radio-5"><span class="radio-label"></span> Billed Monthly</label>
-				</div>
-
-				<div class="radio billed-yearly-radio">
-					<input id="radio-6" name="radio-payment-type" type="radio">
+			
+          <input type="radio" id="radio-6" name="fav_" >
 					<label for="radio-6"><span class="radio-label"></span> Billed Yearly <span class="small-label">Save 10%</span></label>
-				</div>
+				</div> 
 			</div>
 
 			<!-- Pricing Plans Container -->
@@ -140,13 +161,13 @@
 				<!-- Plan -->
 				<div class="pricing-plan">
 					<h3>Starter</h3>
-					<div class="pricing-plan-label billed-monthly-label"><strong>Ksh. 12k</strong>/ monthly</div>
+					<div class="pricing-plan-label billed-monthly-label"><strong>Ksh. 100 USD </strong>/ monthly</div>
 					<div class="pricing-plan-label billed-yearly-label"><strong>Ksh. 119k</strong>/ yearly</div>
 					<div class="pricing-plan-features">
 						<strong>Features of Starter Plan</strong>
 						<ul>
-							<li>400 deliveries per month</li>
-							<li>Additional deliveries at ksh. 20 per task</li>
+							<li>400 orders per month</li>
+							<li>Additional orders at ksh. 20 per task</li>
 						</ul>
 					</div>
 					<a href="/contact"   style="outline: linear-gradient(111.24deg, #FFCE20 33.43%, #FAAC16 97.28%);
@@ -159,13 +180,13 @@
                     box-shadow: 0px 0px 32px rgba(255, 226, 47, 0.66);
                     border-radius: 7px;"class="recommended-badge">Recommended</div>
 					<h3>Pro</h3>
-					<div class="pricing-plan-label billed-monthly-label"><strong>Ksh. 50k</strong>/ monthly</div>
+					<div class="pricing-plan-label billed-monthly-label"><strong>400 USD</strong>/ monthly</div>
 					<div class="pricing-plan-label billed-yearly-label"><strong>Ksh. 498k</strong>/ yearly</div>
 					<div class="pricing-plan-features">
 						<strong>Features of Pro Plan</strong>
 						<ul>
-							<li>2500 deliveries per month</li>
-							<li>Additional deliveries at ksh. 19 per task</li>
+							<li>2500 orders per month</li>
+							<li>Additional orders at ksh. 19 per task</li>
 						</ul>
 					</div>
 					<a href="/contact"  style="background: linear-gradient(111.24deg, #FFCE20 33.43%, #FAAC16 97.28%);
@@ -175,13 +196,13 @@
 				<!-- Plan -->
 				<div class="pricing-plan">
 					<h3>Enterprise</h3>
-					<div class="pricing-plan-label billed-monthly-label"><strong>Ksh. 150k</strong>/ monthly</div>
+					<div class="pricing-plan-label billed-monthly-label"><strong>1200 USD</strong>/ monthly</div>
 					<div class="pricing-plan-label billed-yearly-label"><strong>Ksh. 1.4M</strong>/ yearly</div>
 					<div class="pricing-plan-features">
 						<strong>Features of Enterprise Plan</strong>
 						<ul>
-							<li>8500 deliveries per month</li>
-							<li>Additional deliveries at ksh. 15 per task</li>
+							<li>8500 orders per month</li>
+							<li>Additional orders at ksh. 15 per task</li>
 						</ul>
 					</div>
 					<a href="/contact"   style="outline: linear-gradient(111.24deg, #FFCE20 33.43%, #FAAC16 97.28%);
@@ -192,20 +213,7 @@
 
 
 				<!-- Plan -->
-				<div  class="pricing-plan">
-					<h3>Custom</h3>
-					<div class="pricing-plan-features">
-						<h3>Get in touch with our sales</h3>
-                        <h3> to get a custom plan that</h3>
-                        <h3> works for your scale</h3>
-                        <div class="col-md-12 text-center">
-                            <a href="/contact"   style="background: linear-gradient(111.24deg, #FFCE20 33.43%, #FAAC16 97.28%);
-                            box-shadow: 0px 0px 32px rgba(255, 226, 47, 0.66); margin: top -100px;"  class="button ">Contact sales</a>
-					</div>
-                </div>
-                    
-
-		</div>
+				
 
 	</div>
 </div>
@@ -283,108 +291,76 @@
 </body>
 
  <!-- ======= Footer ======= -->
- <footer class="footer-section" style="background-color: #303030;">
-    <div class="container">
-        <div class="footer-cta pt-5 pb-5">
-            <div class="row">
-                <div class="col-xl-4 col-md-4 mb-30">
-                    <div class="single-cta">
-                        <i class="fas fa-map-marker-alt"></i>
-                        <div class="cta-text">
-                            <h4>Find us</h4>
-                            <span>Westlands,WestParkTowers,5th Floor</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xl-4 col-md-4 mb-30">
-                    <div class="single-cta">
-                        <i class="fas fa-phone"></i>
-                        <div class="cta-text">
-                            <h4>Call us</h4>
-                            <span>(254) 715 152 515</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xl-4 col-md-4 mb-30">
-                    <div class="single-cta">
-                        <i class="far fa-envelope-open"></i>
-                        <div class="cta-text">
-                            <h4>Mail us</h4>
-                            <span>sales@fleet.ke</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="footer-content pt-5 pb-5">
-            <div class="row">
-                <div class="col-xl-4 col-lg-4 mb-50">
-                    <div class="footer-widget">
-                        <div class="footer-logo">
-                            <a href="index.html">       <img src="assets/img/logo.png" alt="" class="img-fluid" alt="logo"></a>
-                        </div>
 
-                        
-                    </div>
-                </div>
-                <div class="col-xl-4 col-lg-4 col-md-6 mb-30">
-                    <div class="footer-widget">
-                        <div class="footer-widget-heading">
-                            <h3>Useful Links</h3>
-                        </div>
-                        <ul>
-                            <li><a href="#">Contact</a></li>
-                            <li><a href="#">Privacy policy</a></li>
-                            <li><a href="#">Privacy policy</a></li>
-                            <li><a href="#">Terms of use</a></li>
-                            
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-xl-4 col-lg-4 col-md-6 mb-50">
-                    <div class="footer-widget">
-                        <div class="footer-widget-heading">
-                            <h3>Subscribe</h3>
-                        </div>
-                        <div class="footer-text mb-25">
-                            <p>Sign up for our newsletter</p>
-                        </div>
-                        <div class="subscribe-form">
-                            <form action="#">
-                                <input type="text" placeholder="Email Address">
-                                <button style="background: linear-gradient(82.6deg, #48A7FF -23.41%, #3E90FC 56.94%, #306DF7 177.98%);
-                                box-shadow: 0px 0px 32px rgba(52, 161, 239, 0.43);
-                                border-radius: 7px;"> <span>Contact sales</span></button>
-                            </form>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="copyright-area">
+  <!-- ======= Footer ======= -->
+  <footer id="footer" class="footer">
+
+   
+
+    <div class="footer-top">
       <div class="container">
-        <div class="col-md-12 text-center">
-        <div class="row">
-         
-          <div>
-            <ul class="social-network social-circle">
-              <li><a href="#" class="icoRss" title="Rss"><i class="fa fa-rss"></i></a></li>
-              <li><a href="#" class="icoFacebook" title="Facebook"><i class="fa fa-facebook"></i></a></li>
-              <li><a href="#" class="icoTwitter" title="Twitter"><i class="fa fa-twitter"></i></a></li>
-              <li><a href="#" class="icoGoogle" title="Google +"><i class="fa fa-google-plus"></i></a></li>
-              <li><a href="#" class="icoLinkedin" title="Linkedin"><i class="fa fa-linkedin"></i></a></li>
+        <div class="row gy-4">
+          <div class="col-lg-5 col-md-12 footer-info">
+            <a href="index.html" class="logo d-flex align-items-center">
+              <img src="assets/img/logo.png" alt="">
+             
+            </a>
+            <p>End to end logistics and dispatch management solution for business.With fleet you can optimize and scale your last delivery operations faster than ever before.Automate route planning ,dispatch , reconciliation and boost your delivery</p>
+            <div class="social-links mt-3">
+              <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
+              <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
+              <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
+              <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
+            </div>
+          </div>
+
+          <div class="col-lg-2 col-6 footer-links">
+            <h4>Useful Links</h4>
+            <ul>
+              <li><i class="bi bi-chevron-right"></i> <a href="index.html">Home</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="contactus.html">About us</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="industrial-services.html">Services</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="contactus.html">Contact us</a></li>
+  
             </ul>
           </div>
-          <p style="color: #FFFFFF">©2022 Fleet. All Rights Reserved.</p>
-          </p>
+
+          <div class="col-lg-2 col-6 footer-links">
+            <h4>Quick Links</h4>
+            <ul>
+              <li><i class="bi bi-chevron-right"></i> <a href="home-services.html">SLA Tracking</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="industrial-services.html">Industries</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="ecommerce-logistics.html">E commerce logistics</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="pricingea.html">Pricing</a></li>
+
+            </ul>
           </div>
+
+          <div class="col-lg-3 col-md-12 footer-contact text-center text-md-start">
+            <h4>Contact Us</h4>
+            <p>
+             Westpark Towers 5th Floor  <br>
+              MPesi lane ,Westlands<br>
+              Kenya<br><br>
+              <strong>Phone:</strong> 0722759081<br>
+              <strong>Email:</strong> sales@fleet.ke<br>
+            </p>
+            <div class="text-center">
+            </div>
+          </div>
+
         </div>
       </div>
-       
-        </div>
     </div>
-</footer>
+
+    <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+    </div>
+  
+  </footer><!-- End Footer -->
+
+<a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+
 
 
 <script src="/static/theme/js/jquery-3.4.1.min.js"></script>

@@ -15,13 +15,19 @@
   <link href="logo.png" rel="apple-touch-icon">
 
   <!-- Google Fonts -->
-  <link
-    href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Nunito:300,300i,400,400i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
-    rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Nunito:300,300i,400,400i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+  
+   
+
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Nunito:300,300i,400,400i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
   <!-- Vendor CSS Files -->
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
   <link href="assets/vendor/aos/aos.css" rel="stylesheet">
   <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
   <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
@@ -31,6 +37,21 @@
 
   <!-- Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
+  <link rel="icon" href="/static/images/logo_icon.ico" type="image/icon type"/>
+  <link rel="stylesheet" type="text/css" href="style1.css" />
+  <link rel="stylesheet" type="text/css" href="blue.css" />
+  <link rel="stylesheet" type="text/css" href="custom.css" />
+  <title>Fleet -  Pricing </title>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-209689113-1"></script>
+  <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-209689113-1');
+  </script>
+
 
   <!-- =======================================================
  
@@ -51,21 +72,43 @@
       <nav id="navbar" class="navbar">
         <ul>
           <li><a class="nav-link scrollto active" href="index.html">Home</a></li>
-          <li><a class="nav-link scrollto" href="#values">Key Features</a></li>
+          <li><a class="nav-link scrollto" href="index.html">Key Features</a></li>
           <li><a class="nav-link scrollto" href="pricingea.html">Pricing</a></li>
           <li><a class="nav-link scrollto" href="contactus.html">Contact us</a></li>
+          
+            
         
+              <li class="dropdown"><a href="#"><span>Industries</span> <i class="bi bi-chevron-down"></i></a>
+                <ul>
+                  <li><a href="ecommerce-logistics.html">E-commerce</a></li>
+                  <li><a href="grocery-logistics.html">E-grocery</a></li>
+                  <li><a href="retail-logistics.html">Retail</a></li>
+                  <li><a href="industrial-services.html">Industrial Services</a></li>
+                  <li><a href="manufacturing-logistics.html">Manufacturing</a></li>
+                  <li><a href="3pl-and-cep.html">3PL & CEP</a></li>
+                  <li><a href="home-services.html">Home Services</a></li>
+                </ul>
+        
+                <li class="dropdown"><a href="#"><span>Guides</span> <i class="bi bi-chevron-down"></i></a>
+                  <ul>
+                    <li><a href="Guides/electronics-supply-chain-and-third-party-logistics.html">Electronic Products</a></li>
+                    <li><a href="Guides/fleetmanagement.html">Fleet Management</a></li>
+                    <li><a href="Guides/a-definitive-guide-to-route-planning.html">Logistics Route Planner Guide</a></li>
+                    <li><a href="Guides/healthcarelogistics.html">Healthcare Logistics</a></li>
+                    <li><a href="Guides/what-is-a-transportation-management-system-tms-and-why-do-you-need-it.html">Transport Management System</a></li>
+                    <li><a href="Guides/electronics-supply-chain-and-third-party-logistics.html">E-commerce Logistics</a></li>
+                    <li><a href="Guides/direct-to-store-delivery.html">Direct Store Delivery</a></li>
+                  </ul>
 
-
-
-          <li><a class="getstarted scrollto" href="#about" style="background: linear-gradient(111.24deg, #FFCE20 33.43%, #FAAC16 97.28%);
+          <li><a  data-toggle="modal" data-target="#exampleModal" data-whatever="@fat" class="getstarted scrollto" href="#exampleModal" style="background: linear-gradient(111.24deg, #FFCE20 33.43%, #FAAC16 97.28%);
             box-shadow: 0px 0px 32px rgba(255, 226, 47, 0.66);" >Contact sales</a></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
+
       </nav><!-- .navbar -->
 
     </div>
-  </header>
+  </header><!-- End Header -->
 
   <body>
     <div class="container">
@@ -83,24 +126,14 @@
           <div class="col2 column2 last">
            
             <div class="sec2contactform">
-              <h3  style="font-color:black" class="sec2frmtitle">Want to Know More?? Drop Us a Mail</h3>
-              <form action="">
-                <div class="clearfix">
-                  <input class="col2 first" type="text" placeholder="FirstName">
-                  <input class="col2 last" type="text" placeholder="LastName">
-                </div>
-                <div class="clearfix">
-                  <input class="col2 first" type="Email" placeholder="Email">
-                  <input class="col2 last" type="text" placeholder="Contact Number">
-                </div>
-                <div class="clearfix">
-                  <textarea name="textarea" id="" cols="30" rows="7">Your message here...</textarea>
-                </div>
-                <div class="clearfix"><input type="submit" value="Contact sales" style="background: linear-gradient(111.24deg, #FFCE20 33.43%, #FAAC16 97.28%);
-                                box-shadow: 0px 0px 32px rgba(255, 226, 47, 0.66);
-                                border-radius: 7px;"></div>
-              </form>
-            </div>
+              <script charset="utf-8" type="text/javascript" src="//js-eu1.hsforms.net/forms/v2.js"></script>
+<script>
+  hbspt.forms.create({
+    region: "eu1",
+    portalId: "26049491",
+    formId: "ba7bd8bd-3f0d-465e-b3e6-ab4919f034c6"
+  });
+</script>
 
           </div>
         </section>
@@ -109,126 +142,92 @@
     </div>
   </body>
   <!-- ======= Footer ======= -->
-  <footer class="footer-section" style="background-color: #303030;">
-    <div class="container">
-        <div class="footer-cta pt-5 pb-5">
-            <div class="row">
-                <div class="col-xl-4 col-md-4 mb-30">
-                    <div class="single-cta">
-                        <i class="fas fa-map-marker-alt"></i>
-                        <div class="cta-text">
-                            <h4>Find us</h4>
-                            <span>Westlands,WestParkTowers,5th Floor</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xl-4 col-md-4 mb-30">
-                    <div class="single-cta">
-                        <i class="fas fa-phone"></i>
-                        <div class="cta-text">
-                            <h4>Call us</h4>
-                            <span>(254) 715 152 515</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xl-4 col-md-4 mb-30">
-                    <div class="single-cta">
-                        <i class="far fa-envelope-open"></i>
-                        <div class="cta-text">
-                            <h4>Mail us</h4>
-                            <span>sales@fleet.ke</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="footer-content pt-5 pb-5">
-            <div class="row">
-                <div class="col-xl-4 col-lg-4 mb-50">
-                    <div class="footer-widget">
-                        <div class="footer-logo">
-                            <a href="index.html">       <img src="assets/img/logo.png" alt="" class="img-fluid" alt="logo"></a>
-                        </div>
+ 
+  <!-- ======= Footer ======= -->
+  <footer id="footer" class="footer">
 
-                        
-                    </div>
-                </div>
-                <div class="col-xl-4 col-lg-4 col-md-6 mb-30">
-                    <div class="footer-widget">
-                        <div class="footer-widget-heading">
-                            <h3>Useful Links</h3>
-                        </div>
-                        <ul>
-                            <li><a href="#">Contact</a></li>
-                            <li><a href="#">Privacy policy</a></li>
-                            <li><a href="#">Privacy policy</a></li>
-                            <li><a href="#">Terms of use</a></li>
-                            
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-xl-4 col-lg-4 col-md-6 mb-50">
-                    <div class="footer-widget">
-                        <div class="footer-widget-heading">
-                            <h3>Subscribe</h3>
-                        </div>
-                        <div class="footer-text mb-25">
-                            <p>Sign up for our newsletter</p>
-                        </div>
-                        <div class="subscribe-form">
-                            <form action="#">
-                                <input type="text" placeholder="Email Address">
-                                <button style="background: linear-gradient(82.6deg, #48A7FF -23.41%, #3E90FC 56.94%, #306DF7 177.98%);
-                                box-shadow: 0px 0px 32px rgba(52, 161, 239, 0.43);
-                                border-radius: 7px;"> <span>Contact sales</span></button>
-                            </form>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="copyright-area">
+   
+
+    <div class="footer-top">
       <div class="container">
-        <div class="col-md-12 text-center">
-        <div class="row">
-         
-          <div>
-            <ul class="social-network social-circle">
-              <li><a href="#" class="icoRss" title="Rss"><i class="fa fa-rss"></i></a></li>
-              <li><a href="#" class="icoFacebook" title="Facebook"><i class="fa fa-facebook"></i></a></li>
-              <li><a href="#" class="icoTwitter" title="Twitter"><i class="fa fa-twitter"></i></a></li>
-              <li><a href="#" class="icoGoogle" title="Google +"><i class="fa fa-google-plus"></i></a></li>
-              <li><a href="#" class="icoLinkedin" title="Linkedin"><i class="fa fa-linkedin"></i></a></li>
+        <div class="row gy-4">
+          <div class="col-lg-5 col-md-12 footer-info">
+            <a href="index.html" class="logo d-flex align-items-center">
+              <img src="assets/img/logo.png" alt="">
+             
+            </a>
+            <p>End to end logistics and dispatch management solution for business.With fleet you can optimize and scale your last delivery operations faster than ever before.Automate route planning ,dispatch , reconciliation and boost your delivery</p>
+            <div class="social-links mt-3">
+              <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
+              <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
+              <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
+              <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
+            </div>
+          </div>
+
+          <div class="col-lg-2 col-6 footer-links">
+            <h4>Useful Links</h4>
+            <ul>
+              <li><i class="bi bi-chevron-right"></i> <a href="index.html">Home</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="contactus.html">About us</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="industrial-services.html">Services</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="contactus.html">Contact us</a></li>
+  
             </ul>
           </div>
-          <p style="color: #FFFFFF">©2022 Fleet. All Rights Reserved.</p>
-          </p>
+
+          <div class="col-lg-2 col-6 footer-links">
+            <h4>Quick Links</h4>
+            <ul>
+              <li><i class="bi bi-chevron-right"></i> <a href="home-services.html">SLA Tracking</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="industrial-services.html">Industries</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="ecommerce-logistics.html">E commerce logistics</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="pricingea.html">Pricing</a></li>
+
+            </ul>
           </div>
+
+          <div class="col-lg-3 col-md-12 footer-contact text-center text-md-start">
+            <h4>Contact Us</h4>
+            <p>
+             Westpark Towers 5th Floor  <br>
+              MPesi lane ,Westlands<br>
+              Kenya<br><br>
+              <strong>Phone:</strong> 0722759081<br>
+              <strong>Email:</strong> sales@fleet.ke<br>
+            </p>
+            <div class="text-center">
+            </div>
+          </div>
+
         </div>
       </div>
-       
-        </div>
     </div>
-</footer>
+
+    <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+    </div>
+  
+  </footer><!-- End Footer -->
+
+ 
+
+<!-- Vendor JS Files -->
+<script src="assets/vendor/purecounter/purecounter.js"></script>
+<script src="assets/vendor/aos/aos.js"></script>
+<script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+<script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+<script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+<script src="assets/vendor/php-email-form/validate.js"></script>
+
+<!-- Template Main JS File -->
+<script src="assets/js/main.js"></script>
 
 
 
-  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
-      class="bi bi-arrow-up-short"></i></a>
 
-  <!-- Vendor JS Files -->
-  <script src="assets/vendor/purecounter/purecounter.js"></script>
-  <script src="assets/vendor/aos/aos.js"></script>
-  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
-  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
-  <script src="assets/vendor/php-email-form/validate.js"></script>
 
-  <!-- Template Main JS File -->
-  <script src="assets/js/main.js"></script>
 
-</body>
+
 
 </html>

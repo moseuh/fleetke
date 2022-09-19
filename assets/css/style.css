@@ -36,16 +36,16 @@ color:#000000;
 # Sections
 --------------------------------------------------------------*/
 section {
-  padding: 60px 0;
+  padding: 70px 0;
   overflow: hidden;
 }
 
 .section-header {
   text-align: center;
-  padding-bottom: 40px;
+  padding-bottom: 50px;
 }
 .section-header h2 {
-  font-size: 13px;
+  font-size: 12px;
   letter-spacing: 1px;
   font-weight: 700;
   margin: 0;
@@ -256,7 +256,7 @@ section {
   font-size: 12px;
 }
 .navbar .dropdown ul a:hover, .navbar .dropdown ul .active:hover, .navbar .dropdown ul li:hover > a {
-  color: #4154f1;
+  color: #000000;
 }
 .navbar .dropdown:hover > ul {
   opacity: 1;
@@ -551,7 +551,7 @@ top: 3989px;
 # Values2
 --------------------------------------------------------------*/
 .values2 .box {
- background: url(../img/hero-bg.jpg) top center no-repeat;
+ background-color:#FCFBF8;
   background-size: cover;
   padding: 20px;
   box-shadow: 0px 0 5px rgba(1, 41, 112, 0.08);
@@ -1974,8 +1974,9 @@ margin-right:30px;
 --------------------------------------------------------------*/
 .footer {
   background: #f6f9ff;
-  padding: 0 0 30px 0;
+  padding: 0 0 0px 0;
   font-size: 14px;
+  height: 100%;
 }
 .footer .footer-newsletter {
   padding: 50px 0;
@@ -2034,7 +2035,7 @@ margin-right:30px;
   }
 }
 .footer .footer-top .footer-info {
-  margin-bottom: 30px;
+  margin-bottom: 0px;
 }
 .footer .footer-top .footer-info .logo {
   line-height: 0;
@@ -2108,20 +2109,6 @@ margin-right:30px;
 .footer .footer-top .footer-links ul a:hover {
   color: #4154f1;
 }
-.footer .footer-top .footer-contact p {
-  line-height: 26px;
-}
-.footer .copyright {
-  text-align: center;
-  padding-top: 30px;
-  color: #012970;
-}
-.footer .credits {
-  padding-top: 10px;
-  text-align: center;
-  font-size: 13px;
-  color: #012970;
-}
 
 section.pricing {
   background: #007bff;
@@ -2180,7 +2167,7 @@ font-size: 14px;
 
 body {
 	background: #ffffff;
-	color: #333;
+	color: #ffffff;;
 	font-weight: normal;
 	font-size: 1em;
 	font-family: 'Roboto', Arial, sans-serif;
